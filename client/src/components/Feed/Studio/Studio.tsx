@@ -32,13 +32,13 @@ export const Studio = ({ userData }) => {
 
   return (
     <div>
-      <b>The Studio</b>
+      <b>The Trading Floor</b>
       <br />
       {/* Textarea for inputting new post content */}
       <textarea
         value={postContent}
         onChange={(e) => setPostContent(e.target.value)}
-        placeholder="What's on your mind?"
+        placeholder="Post your Thesis"
       ></textarea>
       <br />
       {/* Button to trigger post submission */}
